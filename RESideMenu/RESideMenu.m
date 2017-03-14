@@ -127,6 +127,7 @@
         _contentViewController = contentViewController;
         _leftMenuViewController = leftMenuViewController;
         _rightMenuViewController = rightMenuViewController;
+        [self commonInit]
     }
     return self;
 }
